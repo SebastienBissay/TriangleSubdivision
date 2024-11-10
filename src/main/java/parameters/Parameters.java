@@ -24,4 +24,6 @@ public final class Parameters {
 
         return Collections.singletonMap(Parameters.class.getSimpleName(), map);
     }
+
+    public record Color (float red, float green, float blue, float alpha) {}
 }
